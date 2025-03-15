@@ -1,11 +1,20 @@
 # stats220
 
-This is my repo for STATS 220. 
+This is a classwork repo for **STATS 220:** *Data Technologies*.
 
-A little about me:
+## an ordered list: 
 
-- I am undertaking a degree in Computer Science
-- I am taking STATS 220 because I want to learn more about working with data
-- I am interested in learning about R
+1. I am undertaking a degree in Computer Science.
+2. I am taking STATS 220 because I want to learn more about working with data.
+3. I am interested in learning about R.
 
-A meme that captures how I currently feel about my university studies is ![](https://c.tenor.com/8druEACXtX8AAAAd/tenor.gif)
+## an unordered list with some neat links:
+
+- [four seasons in ascii](https://four-seasons.glitch.me)
+- [bug grabber](https://grab-a-bug.glitch.me/)
+- [button generator](https://autopoies.is/buttons/)
+
+## a new animated gif:
+![](https://c.tenor.com/RpwBjEKE8UgAAAAd/tenor.gif) 
+
+___
