@@ -183,44 +183,4 @@ The colours come from a key that was included in the form:
 
 Not requested in the form, but I also took pictures of all the weather occurrences I logged, and stitched them together with {magick}. Unfortunately, my camera does not handle low-light well...I promise there was nuance in real life. 
 
-```{r}
-a <- image_read("wl/1.JPG") %>% image_scale(350)
-b <- image_read("wl/2.JPG") %>% image_scale(350)
-c <- image_read("wl/3.JPG") %>% image_scale(350)
-d <- image_read("wl/4.JPG") %>% image_scale(350)
-e <- image_read("wl/5.JPG") %>% image_scale(350)
-
-f <- image_read("wl/6.JPG") %>% image_scale(350)
-g <- image_read("wl/7.JPG") %>% image_scale(350)
-h <- image_read("wl/8.JPG") %>% image_scale(350)
-i <- image_read("wl/9.JPG") %>% image_scale(350)
-j <- image_read("wl/10.JPG") %>% image_scale(350)
-
-k <- image_read("wl/11.JPG") %>% image_scale(350)
-l <- image_read("wl/12.JPG") %>% image_scale(350)
-m <- image_read("wl/13.JPG") %>% image_scale(350)
-n <- image_read("wl/14.JPG") %>% image_scale(350)
-o <- image_read("wl/15.JPG") %>% image_scale(350)
-
-p <- image_read("wl/16.JPG") %>% image_scale(350)
-q <- image_read("wl/17.JPG") %>% image_scale(350)
-r <- image_read("wl/18.JPG") %>% image_scale(350)
-s <- image_read("wl/19.JPG") %>% image_scale(350)
-t <- image_read("wl/20.JPG") %>% image_scale(350)
-
-first <- c(a, b, c, d, e) %>%
-  image_append()
-second <- c(f, g, h, i, j) %>%
-  image_append()
-third <- c(k, l, m, n, o) %>%
-  image_append()
-forth <- c(p, q, r, s, t) %>%
-  image_append()
-
-final <- c(first, second, third, forth) %>%
-  image_append(stack = TRUE)
-image_write(final, "final_image.png")
-
-```
-
 ![](final_image.png)
