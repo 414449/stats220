@@ -177,10 +177,10 @@ print(colour_graph)
 
 The colours come from a key that was included in the form:
 
-![](key.png)
+![](https://raw.githubusercontent.com/414449/stats220/refs/heads/main/key.png)
 
 ## Pictures:
 
 Not requested in the form, but I also took pictures of all the weather occurrences I logged, and stitched them together with {magick}. Unfortunately, my camera does not handle low-light well...I promise there was nuance in real life. 
 
-![](final_image.png)
+![](https://raw.githubusercontent.com/414449/stats220/refs/heads/main/final_image.png)
