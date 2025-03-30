@@ -219,7 +219,7 @@ forth <- c(p, q, r, s, t) %>%
 
 final <- c(first, second, third, forth) %>%
   image_append(stack = TRUE)
-
+final
 ```
 
 `r final`
