@@ -181,7 +181,7 @@ The colours come from a key that was included in the form:
 
 ## Pictures:
 
-Not requested in the form, but I also took pictures of all the weather occurrences I logged, and stitched them together with {magick}. Unfortunately, my camera doesn't handle low-light well...I promise there was nuance in real life. 
+Not requested in the form, but I also took pictures of all the weather occurrences I logged, and stitched them together with {magick}. Unfortunately, my camera does not handle low-light well...I promise there was nuance in real life. 
 
 ```{r}
 a <- image_read("wl/1.JPG") %>% image_scale(350)
