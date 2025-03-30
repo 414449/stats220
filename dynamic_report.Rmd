@@ -1,5 +1,5 @@
 ---
-title: Weather Logging
+title: My dynamic report
 output: html_fragment
 ---
 
